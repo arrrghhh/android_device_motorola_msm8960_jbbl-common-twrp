@@ -84,9 +84,9 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 
 # QCOM SELinux policy
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/motorola/msm8960_jbbl-common/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/motorola/msm8960_jbbl-common/sepolicy
 
